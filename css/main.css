@@ -1,0 +1,71 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+    padding: 6px 12px;
+    font-size: 32px;
+    text-align: center;
+    border-bottom: 1px solid rgba(102,102,102,0.6);
+}
+#game{
+    width: 306px;
+    height:306px;
+    margin: auto;
+    margin-top: 50px;
+}
+.grid-item{
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 32px;
+    background: #ffffff;
+    line-height: 100px;
+}
+.popup{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top:50%;
+    text-align: center;
+    padding: 5%;
+    box-sizing: border-box;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0px 2px 6px 2px #ddd;
+}
+.hide{
+    display: none;
+}
+.popup div:first-child{
+    font-size: 20px;
+}
+.popup .restart{
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    background: #009688;
+    color: #fff;
+    margin: 1em;
+    cursor: pointer;
+}
+#resetBtnWrapper{
+    text-align: center;
+    padding: 20px;
+}
+#resetButton{
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    background: #009688;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #009688;
+    padding: 6px 12px;
+}
+button#resetButton:disabled{
+    border: 1px solid #00968870;
+    background: #00968870;
+}
